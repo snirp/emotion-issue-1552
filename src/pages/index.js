@@ -2,15 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from '@emotion/styled'
 
-import SEO from "../components/seo"
+import Seo from "../components/Seo"
 
 const Big = styled.div`
   font-size: 3rem;
 `
 
-const IndexPage = () => (
+const Index = () => (
   <>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <Big>Hi people</Big>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -18,4 +18,4 @@ const IndexPage = () => (
   </>
 )
 
-export default IndexPage
+export default Index
