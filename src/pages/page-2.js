@@ -1,16 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from '@emotion/styled'
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const Big = styled.div`
+  font-size: 3rem;
+`
+
 const SecondPage = () => (
-  <Layout>
+  <div>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
+    <Big>Hi from the second page</Big>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </div>
 )
 
 export default SecondPage
